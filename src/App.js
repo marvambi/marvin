@@ -42,8 +42,15 @@ function App() {
     },
   ]);
 
+  // Delete a memory
   const deleteMemory = (id) => {
     setMemories(memories.filter((memory) => memory.id !== id))
+  }
+
+  // Toggle Reminder
+
+  const toggleReminder = (id) => {
+    
   }
 
   return (
